@@ -1,0 +1,84 @@
+/***** GENERAL STYLING *****/
+body {
+    background-color: #2F2F2F;
+}
+
+/* Heading 1 elements */
+h1 {
+    font-family: Impact, serif; 
+    text-align: left; 
+    margin-top: 3%; 
+    color: #CEB64C; 
+}
+
+h2 {
+    font-family: Impact, serif; 
+    text-align: left; 
+    color: #CEB64C; 
+}
+
+h3 {
+    font-family: Impact, serif;
+    text-align: left; 
+    color: #CEB64C; 
+}
+
+/* Styling for portfolio title text */
+.white-text {
+    color: #CEB64C;
+}
+
+/* Paragraph elements */
+p {
+    font-family: Arial;
+    text-align: justify;
+    letter-spacing: 1px; 
+    font-size: 17px;
+    padding-left: 0px;
+    padding-right: 50px; 
+}
+
+/* Styling for footer element */
+footer {
+    padding: 1%; 
+    background-color: #212529;
+    color: #ffffff
+}
+/*end footer */
+
+/*contact form */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #212529;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fff;
+  color: #2f2f2f;
+  padding: 12px 15px;
+  border: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #212529;
+}
+
+input[type=submit]:hover {
+  background-color: #ffff;
+  border: 2px solid #212529;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+  border: 2px solid #212529;
+}
