@@ -1,0 +1,81 @@
+/***** GENERAL STYLING *****/
+/* Body */
+body {
+    margin: 0%  /* This ensures our site displays all the way to the edge of the browser screen */
+}
+
+/* Heading 1 elements */
+h1 {
+    font-family: 'crimson pro', serif; /* Sets the font family of all h1 headings */
+    text-align: left; /* Centering all h1 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color: #509EF3; 
+}
+
+h2 {
+    font-family: 'crimson pro', serif; /* Sets the font family of all h1 headings */
+    text-align: left; /* Centering all h1 elements */
+    color: #509EF3; 
+}
+
+h3 {
+    font-family: 'crimson pro', serif; /* Sets the font family of all h1 headings */
+    text-align: left; /* Centering all h1 elements */
+    color: #509EF3; 
+}
+
+/* Styling for portfolio title text */
+.white-text {
+    color: #fff; /* This is used to change the color of the portfolio title text */
+}
+
+/* Paragraph elements */
+p {
+    font-family: Calibri;
+    text-align: justify; /* Justify text within paragraph elements */
+    letter-spacing: 1px; /* This expands the text slightly */
+    font-size: 17px;
+    padding-left: 0px; /* Adds padding to the left of the paragraph element */
+    padding-right: 50px; /* Adds padding to the right of the paragraph element */
+}
+
+/***** NAVBAR STYLING *****/
+.Navbar {
+    overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+    background-color: #ded1bd; 
+    position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0; /* This ensures no space is displayed above the navbar */
+    width: 100%; /* This makes the navbar span the entire width of the page */
+    z-index: 1; /* This ensures other elements don't display over the navbar */
+    -webkit-animation: moveNav 5s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
+    animation: moveNav 5s; /* This applies the moveNav animation for all other browsers */
+}
+
+
+/* Navbar links */
+.Navbar a {
+    float: left; /* This specifies that the text floats on the left on the navbar */
+    display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
+    color: black; /* This is the font color for text on our navbar */
+    padding: 14px 16px; /* This adds padding around our text */
+    text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
+    font-family: ; /* This specifies the font family for text on our navbar */
+    font-size: 20px; /* This specifies the font size for text on our navbar */
+    font-weight: bold;
+    transition-duration: 0.3s; /* This makes the transition last 1 second */
+    -webkit-transition-duration: 0.3s; /* For Safari 4.0-8.0 */
+    text-align: center; /* This centers the text within its container */
+    position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
+    -webkit-animation: moveNavText 2.75s; /* Animation for Safari 4.0 - 8.0 */
+    animation: moveNavText 3.75s; /* Applies the moveNavText animation for 5.75s */ 
+}
+
+/* Navbar hover effects */
+.Navbar a:hover {
+    background-color: #509EF3; /* Defines the background color that will display when you hover over the link */
+    color: black; /* This defines the font color that will display when navbar a elements are hovered over */
+    font-weight: bold; /* This makes the text on the navbar bold when hovered over */
+    border-color: black;
+    opacity: 0.8;
+}
+
