@@ -1,0 +1,41 @@
+/***** GENERAL STYLING *****/
+body {
+    background-color: #AE6427;
+}
+
+/* Heading 1 elements */
+h1 {
+    font-family: Georgia, serif; 
+    text-align: left; 
+    margin-top: 3%; 
+    color: #DCB700; 
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left; 
+    color: #2f1313; 
+}
+
+/* Styling for portfolio title text */
+.white-text {
+    color: #000;
+}
+
+/* Paragraph elements */
+p {
+    font-family: Arial;
+    text-align: justify;
+    letter-spacing: 1px; 
+    font-size: 17px;
+    padding-left: 0px;
+    padding-right: 50px; 
+}
+
+/* Styling for footer element */
+footer {
+    padding: 1%; 
+    background-color: #AE6427;
+    color: #ffffff
+}
+/*end footer */
