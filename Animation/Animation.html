@@ -8,8 +8,8 @@
                 <style>
                     @-webkit-keyframes color-change-2x{0%{background:#19dcea}100%{background:#b22cff}}@keyframes color-change-2x{0%{background:#19dcea}100%{background:#b22cff}}
                     @-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
-                    @-webkit-keyframes slide-fwd-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}100%{-webkit-transform:translateZ(160px);transform:translateZ(160px)}}@keyframes slide-fwd-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}100%{-webkit-transform:translateZ(160px);transform:translateZ(160px)}}
-                
+                    @-webkit-keyframes blink-1{0%,50%,100%{opacity:1}25%,75%{opacity:0}}@keyframes blink-1{0%,50%,100%{opacity:1}25%,75%{opacity:0}}
+
                     .color-change-2x {
                         -webkit-animation: color-change-2x 10s;
                         animation-iteration-count: infinite;
@@ -22,18 +22,18 @@
                         text-align: center;
                     }
 
-                    .slide-fwd-center {
-                        -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                        animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                        text-align: center;
-                        }
+                    .blink-1 {
+                    -webkit-animation: blink-1 0.6s both;
+                            animation: blink-1 0.6s both;
+                            text-align: center;
+                }
                 </style>     
     </head>   
 
     <body class="color-change-2x">
         
         <p class="text-focus-in">SocialMedia</p>
-            <h1 class="slide-fwd-center">SLIDES FORWARD</h1> <!--NEED HELP CODING-->
+            <h1 class="blink-1">ACCESS NOW</h1> <!--NEED HELP CODING-->
 		
         <!-- FOOTER -->
 		<div>
