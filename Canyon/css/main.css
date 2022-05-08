@@ -86,7 +86,7 @@ footer {
 /***** NAVBAR STYLING *****/
 .Navbar {
     overflow: hidden; 
-    background-color: #85A6BC; 
+    background-color: #738572; 
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -182,19 +182,7 @@ footer {
 }
 /***** END OF TABLE STYLING *****/
 
-/***** CONTACT FORM STYLING *****/
-/* input[type=text] targets all text input sections of the contact form */
-input[type=text] {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical; 
-    font-family: arial, Century Gothic Bold;
-}
+
 
 /* movePopup animation moves the button from off the right side of the screen to its fixed location on the viewport */
 @keyframes movePopup {
@@ -252,3 +240,6 @@ img {
         font-size: 500%;
         text-align: center;
     }
+
+    /* search bar */
+    
