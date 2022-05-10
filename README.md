@@ -1,5 +1,5 @@
-#<b><i>Hello, World!</i></b>
-Shirley here! I am UI/UX Designer and graduate of the Tech Academy in Portland, OR.
+<b><i>Hello, World!</i></b>
+<br>Shirley here! I am UI/UX Designer and graduate of the Tech Academy in Portland, OR.
 
 Here you will find my work for wireframing, mockups, and prototyping for web, and mobile apps.
 
